@@ -16,7 +16,7 @@ const MainRouter = () => {
         {
         useRoutes([
         {path: '/', element: <Layout/>, children:[
-          { path: '/post', element: <Post/>},
+          { path: '/', element: <Post/>},
           { path: '/albums', element: <Album/>},
           { path: '/comments', element: <Comments/>},
           { path: '/users', element: <Users/>},
